@@ -1,0 +1,44 @@
+
+
+.main__screen-wrap{
+    height: 62rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.main__screen-block{
+    width: 92rem;
+    height: 24.5rem;
+    border: 0.1rem solid var(--ligth-gold);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6.5rem;
+    padding-bottom: 2.6rem;
+}
+
+.main__screen-block-sub{
+    width: 77.7rem;
+    margin: 0;
+    margin-bottom: 1.6rem;
+}
+
+.title.title-main{
+    margin-top: 4.3rem;
+}
+
+@media screen and (max-width:1900px){
+    .main__screen-wrap {
+        height: 44rem;
+    }
+
+    .main__screen-block {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000;
+    z-index: 1;
+}
+
+.link-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.office-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+    color: #fff;
+}
+
+.title-roaming{
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+}
+
+.button__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.arrow-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C8A35F;
+}
+
+.item__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.company__text-sub{
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFF;
+}
+
+.company__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    margin: 0;
+}
+
+.pic__text{
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+
+.footer__link-text{
+    line-height: 16px;
+    color: #F2F2F2;
+    opacity: 0.8;
+}
+
+.footer__phone-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F2F2F2;
+    text-decoration: none;
+    margin: 0;
+}
+
+.dev-text{
+    text-decoration: underline;
+    color: #000;
+}
+
+
+.pic__title{
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.pic__title-last{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 68px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width:1900px){
+    .title.title-roaming{
+        font-size: 30px;
+    }
+}
+
